@@ -1,0 +1,70 @@
+.payment {
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    /* Smooth gradient */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.payment__container {
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for elevation */
+    border-radius: 10px;
+    /* Smooth edges */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.payment__section {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.payment__button {
+    background: #ff9900;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.payment__button:hover {
+    background: #e68a00;
+}
+
+.payment__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    /* Darker text for visibility */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.payment__address {
+    font-size: 16px;
+    color: #555;
+    /* Slightly lighter text */
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    line-height: 1.5;
+}
